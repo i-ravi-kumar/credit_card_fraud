@@ -27,7 +27,7 @@ The dataset includes transactions made by credit card users, where each transact
 * seaborn
 * matplotlib
 * scikit-learn
-* xGboost
+* XGboost
 * MLFlow
 
 ## Exploratory Data Aanalysis(EDA)
@@ -44,16 +44,22 @@ The dataset includes transactions made by credit card users, where each transact
 * Random Forest
 * XGBoost
 * Random Search cv
-* 
+ 
 ## Model Metrics
 * Precision
 * Recall
 * f1_score
 * confusion_matrix
+* ROC_AUC curve
 ## Best Model
 After All model training, XGBoost is best model with metrics:
 * Precision - 0.51
 * Recall - 0.86
 * F1_score - 0.64
 ## MLflow Experiment Tracking
+all models are shown on interactive mlflow ui [https://dagshub.com/rpowerg80/credit_card_fraud.mlflow/#/experiments/0/runs?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D]
+
 ## Future Improvements
+* Steamlit ui
+* FastAPI
+
