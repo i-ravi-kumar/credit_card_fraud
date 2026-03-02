@@ -60,6 +60,6 @@ After All model training, XGBoost is best model with metrics:
 all models are shown on interactive mlflow ui [https://dagshub.com/rpowerg80/credit_card_fraud.mlflow/#/experiments/0/runs?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&modelVersionFilter=All+Runs&datasetsFilter=W10%3D]
 
 ## Future Improvements
-* Steamlit ui
+* Streamlit ui
 * FastAPI
 
